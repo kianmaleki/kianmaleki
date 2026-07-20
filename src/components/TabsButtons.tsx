@@ -72,6 +72,12 @@ export function TabsButtons() {
               overlayDescription="این پروژه جهت تبدیل لینک ها به کیو ار کد رایگان و دائمی میباشد"
               overlayLink="https://kiako-qrcode.vercel.app/"
             />
+            <PortfolioItem
+              imageSrc="/images/honey.png"
+              overlayTitle="پروژه فروشگاهی عسل"
+              overlayDescription="این پروژه یک سایت فروشگاهی عسل میباشد"
+              overlayLink="https://honeypro.ir/"
+            />
           </div>
         )}
         {selectedTab === "skills" && (
