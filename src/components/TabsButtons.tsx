@@ -37,40 +37,40 @@ export function TabsButtons() {
         {selectedTab === "portfolio" && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <PortfolioItem
-              imageSrc="/images/Group 3.svg"
-              overlayTitle="پروژه شماره 1"
-              overlayDescription="توضیحات پروژه شماره 1"
-              overlayLink="#"
+              imageSrc="/images/burger.png"
+              overlayTitle="پروژه مستربیست برگر"
+              overlayDescription="این پروژه یک کلون از لندینگ پیج سایت فروش برگر مستربیست است"
+              overlayLink="https://kiako-burger.vercel.app/"
             />
             <PortfolioItem
-              imageSrc="/images/Group 4.svg"
-              overlayTitle="پروژه شماره 2"
-              overlayDescription="توضیحات پروژه شماره 2"
-              overlayLink="#"
+              imageSrc="/images/coofee.png"
+              overlayTitle="پروژه فروشگاهی قهوه"
+              overlayDescription="این پروژه یک سایت فروشگاهی برای فروش قهوه میباشد"
+              overlayLink="https://kiako-coofee.vercel.app/"
             />
             <PortfolioItem
-              imageSrc="/images/Group 5.svg"
-              overlayTitle="پروژه شماره 3"
-              overlayDescription="توضیحات پروژه شماره 3"
-              overlayLink="#"
+              imageSrc="/images/carshowcase.png"
+              overlayTitle="پروژه نمایشگاه خودرو"
+              overlayDescription="یک پروژه جهت نمایش خودرو ها با قابلیت سرچ خودرو ها"
+              overlayLink="https://kiako-car-showcase.vercel.app/"
             />
             <PortfolioItem
-              imageSrc="/images/Group 6.svg"
-              overlayTitle="پروژه شماره 4"
-              overlayDescription="توضیحات پروژه شماره 4"
-              overlayLink="#"
+              imageSrc="/images/whitepace.png"
+              overlayTitle="پروژه لندینگ پیج شرکتی"
+              overlayDescription="این پروژه یک لندینگ پیج شرکتی میباشد "
+              overlayLink="https://kiako-whitepace.vercel.app/"
             />
             <PortfolioItem
-              imageSrc="/images/Group 7.svg"
-              overlayTitle="پروژه 5"
-              overlayDescription="توضیحات پروژه شماره 5"
-              overlayLink="#"
+              imageSrc="/images/portfolio.png"
+              overlayTitle="پروژه وبسایت شخصی"
+              overlayDescription="این یک وبسایت شخصی میباشد که فرد میتواند اطلاعات مربوط به خود را درون ان قرار دهد"
+              overlayLink="https://kiako-portfolio.vercel.app/"
             />
             <PortfolioItem
-              imageSrc="/images/Group 8.svg"
-              overlayTitle="پروژه شماره 6"
-              overlayDescription="توضیحات پروژه شماره 6"
-              overlayLink="#"
+              imageSrc="/images/qrcode.png"
+              overlayTitle="پروژه ساخت کیو ار کد"
+              overlayDescription="این پروژه جهت تبدیل لینک ها به کیو ار کد رایگان و دائمی میباشد"
+              overlayLink="https://kiako-qrcode.vercel.app/"
             />
           </div>
         )}

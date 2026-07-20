@@ -1,4 +1,4 @@
-import { GithubIcon, Linkedin, TwitterIcon, YoutubeIcon } from "lucide-react";
+import { GithubIcon, Linkedin, MessageCircle } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import Container from "./Container";
@@ -27,18 +27,19 @@ export default function ProfileInfo() {
           >
             <GithubIcon className="w-5 h-5 hover:text-white transition-colors" />
           </Link>
-          <Link href="https://x.com" target="_blank" aria-label="Twitter">
-            <TwitterIcon className="w-5 h-5 hover:text-white transition-colors" />
+          <Link
+            href="https://t.me/kian_maleki"
+            target="_blank"
+            aria-label="Twitter"
+          >
+            <MessageCircle className="w-5 h-5 hover:text-white transition-colors" />
           </Link>
           <Link
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/kian-maleki-3a932a37a/"
             target="_blank"
             aria-label="LinkedIn"
           >
             <Linkedin className="w-5 h-5 hover:text-white transition-colors" />
-          </Link>
-          <Link href="https://youtube.com" target="_blank" aria-label="YouTube">
-            <YoutubeIcon className="w-5 h-5 hover:text-white transition-colors" />
           </Link>
         </div>
       </div>
